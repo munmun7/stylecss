@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            padding-left:300px ;
+        }
+        body {
+            background-color: yellow;
+        }
+
+        .container{
+            height: auto;
+            width: 700px;
+            background-color: aqua;
+            margin:auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            padding: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+            color: white;
+            
+        }
+
+        .item {
+            height: 100px;
+            /* width: 100px; */
+            background-color: deeppink;
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* height: ; */background-color: transparent;
+            font-size: 80px;
+            background-image: linear-gradient(purple, darkblue);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <h1 class="heading">calculator</h1>
+    </div>
+
+    <div class="container">
+        <div class="item item1"> <input type="text" name="id">
+        </div>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+        <button class="item">1</button>
+       </div>
+    
+</body>
+</html>
